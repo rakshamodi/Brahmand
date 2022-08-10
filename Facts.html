@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Facts</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <meta name="description" content="This website just gives the information about our Universe!">
+      <link rel="shortcut icon" type="image" href="LOGO.png">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    </head>
+    <body>
+      <section class="header">
+        <nav class="logopng">
+          <a href="index.html"><img width= 100 height=100 src="LOGO.png"></a>
+        </nav>
+        <nav>
+          <div class ="nav-links" id="navLinks">
+            <i class="fa fa-times-circle" id="circle" onclick="hideMenu()" style="color:black !important;"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="Search.html">SEARCH</a></li>
+              <li><a href="Facts.html">FACTS</a></li>
+              <li><a href="Contacts.html">CONTACTS</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" id="three" onclick="showMenu()" style="color:white !important;"></i>
+        </nav>
+      </section>
+      <section class="text-box" >
+        <div class="scroll-bg">
+          <h1>Some Facts about Brahmand...</h1>
+          <br><br>
+        <p>  <b>1.</b> It was hot when it was young.</p>
+        <p>  <b>2.</b> It will be cold when it grows old.</p>
+        <p>  <b>3.</b> The Universe spans a diameter of over 150 billion light years.</p>
+        <p>  <b>4.</b> The Universe is 13.7 billion years old.</p>
+        <p>  <b>5.</b> The Earth is not flat – but the Universe is.</p>
+        <p>  <b>6.</b> There is no such thing as the Universe’s center.</p>
+        <p>  <b>7.</b> There is a supermassive black hole at the heart of every galaxy.</p>
+        <p>  <b>8.</b> The Universe has the same temperature everywhere.</p>
+        <p>  <b>9.</b> 95% of the Universe is invisible.</p>
+        <p> <b>10.</b> Most of the stuff in the Universe has repulsive gravity.</p>
+        <p>  <b>11.</b> The Sun is producing only a third of the neutrinos expected.</p>
+        <p>  <b>12.</b> The Universe was born.</p>
+        <p>  <b>13.</b> Most planetary systems are different from ours.</p>
+        <p>  <b>14.</b> The first gravitational waves detected came from a binary black hole system nobody predicted.</p>
+        <p>  <b>15.</b> When you look into the night sky, you are looking back in time.</p>
+        <p> <b>16.</b> There’s a giant cloud of alcohol in Sagittarius B.</p>
+        <p>  <b>17.</b> There’s a planet-sized diamond in Centaurus named after a Beatles song.</p>
+        <p> <b>18.</b> It takes 225 million years for our Sun to travel round the galaxy.</p>
+        <p> <b>19.</b> Our solar system’s biggest mountain is on Mars.</p>
+          <p><b>20.</b> Uranus spins on its side, with some rather strange results.</p>
+          <p><b>21.</b> A year on Venus is shorter than its day.</p>
+        <p>  <b>22.</b> Neutron stars are the fastest spinning objects known in the universe.</p>
+        <p>  <b>23.</b> A spoonful of a neutron star weighs about a billion ton.</p>
+        <p>  <b>24.</b> It is estimated there are 400 billion stars in our galaxy.</p>
+          <p><b>25.</b> There could be 500 million planets capable of supporting life in our galaxy.</p>
+          <p><b>26.</b> There are probably more than 170 billion galaxies in the observable universe.</p>
+          <p><b>27.</b> The human brain is the most complex object in the known universe.</p>
+          <p><b>28.</b> We are all made of stardust.</p>
+          <p><b>29.</b> It was predicted that our Universe is expanding at a rate about 67.36 kilometers per second.</p>
+        <p>  <b>30.</b> There is a water Reservoir floating in space that is equivalent to 140 trillion times all the water in the world's ocean.</p>
+        </div>
+        </section >
+        <footer>
+          <div id="copyright" align="center" class="footer-copyright text-center py-3">
+         <b>© Copyright 2022 @ Brahmand, Astronomy</b>
+      </div>
+    </footer>
+
+      <!---JAVAScricpt for Toggle Menu--->
+          <script>
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+            navLinks.style.left="380px";
+          }
+          function hideMenu(){
+            navLinks.style.left="-300px";
+          }
+          </script>
+    </body>
+  </html>
